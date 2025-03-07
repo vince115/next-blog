@@ -9,7 +9,7 @@ export default function Header() {
           Next.js Blog
         </Link>
         <nav>
-          <Link href="/blog" className="mx-4 hover:underline">部落格</Link>
+          <Link href="/" className="mx-4 hover:underline">部落格</Link>
           <Link href="/auth/login" className="mx-4 hover:underline">登入</Link>
           <Link href="/auth/register" className="mx-4 hover:underline">註冊</Link>
         </nav>
